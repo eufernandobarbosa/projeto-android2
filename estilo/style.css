@@ -42,14 +42,14 @@ header{
     padding-top: 40px;
 }
 nav{
-    background-color: var(--cor5);
+    background-color: vcor5ar(--);
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
 
     }
 nav > a {
-    color: white;
+    color: rgb(34, 6, 6);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -58,8 +58,9 @@ nav > a {
 
 }
 nav > a:hover{
+    font-size: large;
     background-color:rgb(125, 139, 0);
-    color: blue;
+    color: rgb(204, 204, 233);
 
 }
 header > h1{
